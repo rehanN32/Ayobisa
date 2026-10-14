@@ -6,18 +6,18 @@
   "os_style": "Native Windows",
   "hardware": {
     "cpu_threads": 4,
-    "disk_free_gb": 82.1,
-    "ram_gb": 16.0
+    "ram_gb": 16.0,
+    "disk_free_gb": 82.2
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-14T11:54:41Z",
-  "expires_at": "2026-10-14T17:49:41Z",
+  "started_at": "2026-10-14T14:01:46Z",
+  "expires_at": "2026-10-14T19:56:46Z",
   "duration_menit": 355,
   "run_id": "38559883777",
-  "run_attempt": "1",
+  "run_attempt": "2",
   "run_number": "1",
   "run_url": "https://github.com/rehanN32/Ayobisa/actions/runs/38559883777",
   "mode": "bersih+win10",
@@ -39,70 +39,19 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "akses": {
+    "mode": "tailscale",
     "tailscale": {
-      "ip": "100.102.110.117",
       "magicdns": "maswik-1.tail0b7798.ts.net.",
+      "hostname": "Maswik-1",
+      "ip": "100.85.40.119",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "status": "ok",
-      "hostname": "Maswik-1"
-    },
-    "mode": "tailscale"
-  },
-  "media": {
-    "wallpaper": "xyverse_configured_for_user_logon",
-    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
-    "audio_output": "rdp_playback_enabled",
-    "microphone": "rdp_capture_enabled"
-  },
-  "win10": {
-    "look": "ok",
-    "badge": "ok",
-    "wallpaper": "ok",
-    "search": "ok",
-    "os": "Microsoft Windows Server 2022 Datacenter",
-    "note": "Tampilan Windows 10 (UI Windows Server 2022 = kernel/UI Windows 10 21H2)"
-  },
-  "extras": {
-    "lightshot": "ok",
-    "translucent": "disabled",
-    "wallpaper": "ok",
-    "wallpaper_file": "wallpaper.jpg",
-    "vscode": "skip",
-    "notepadpp": "skip",
-    "admin": true
-  },
-  "game_environment": {
-    "runner": "windows-2022",
-    "windows_server": true,
-    "hypervisor_present": true,
-    "play_tested": false,
-    "os": "Microsoft Windows Server 2022 Datacenter"
-  },
-  "games": {
-    "minecraft_bedrock": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    },
-    "samp": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    },
-    "roblox": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    },
-    "minecraft_java": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
+      "status": "ok"
     }
   },
-  "host_tools": {
-    "winrar": "verified 7.23.0 (vendor trial; license not included)",
-    "vcredist": "verified_current_v14_x86_x64",
-    "xampp": "verified_files_php_apache_config_mariadb_version; services not started",
-    "firewall7777": "verified_TCP_UDP_inbound_rules; not_public_forwarding",
-    "errors": [],
-    "public_port": false
-  },
-  "heartbeat_at": "2026-10-14T12:18:40.733137Z"
+  "media": {
+    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
+    "wallpaper": "xyverse_configured_for_user_logon",
+    "microphone": "rdp_capture_enabled",
+    "audio_output": "rdp_playback_enabled"
+  }
 }
